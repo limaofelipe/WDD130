@@ -4,8 +4,26 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #fcfbfb;
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+}
+
+.icon {
+  padding-top: 10px;
+}
 .logo {
   width: 80px;
+}
+
+#logo_link {
+  padding-top: 5px;
 }
 
 #id {
@@ -33,19 +51,35 @@ nav {
 nav a {
   color: #FFECD1;
   text-decoration: none;
-  
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 nav a:hover {
   background-color: #396E94;
 }
 
-#hero-msg,
+
 .book,
-.join{
-  color: #FFECD1;
-  text-decoration: none; 
-  background-color: #001524;
+.join {
+  color: #f9f9f9;
+  background-color: #396E94;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.button-box {
+  margin-top: 25px;
+  font-size: 18px;
+
+
+}
+
+#hero-msg{
+  color: #396E94;
+
+  background-color: #F9f9f9;
  }
 
  .book:hover,
@@ -60,10 +94,23 @@ nav a:hover {
 .msg {
   color: #FFECD1; 
   background-color: #001524;
+  line-height: 1.5em;
+  padding: 35px;
+}
+
+.msg p {
+  font-size: .8em;
+  padding-bottom: 15px;
+}
+
+.card-img {
+  border: 10px solid #001524;
 }
 
 footer {
   background-color: #15616D;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 footer p {
@@ -78,4 +125,19 @@ footer p a {
 
 footer p a:hover {
   text-decoration: underline;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
+.home-title {
+  margin-top: 10px;
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 2em;
+}
+
+.rivers-card,
+.camping-card, .rapids-card {
+  margin: 200px 0;
 }
