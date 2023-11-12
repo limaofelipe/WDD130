@@ -237,6 +237,13 @@ footer .social img {
   box-shadow: 5px 5px 10px #6f7364;
 }
 
+.about-container{
+  display: flex;
+  justify-content:center;
+  align-contant: center;
+}
+
+
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
